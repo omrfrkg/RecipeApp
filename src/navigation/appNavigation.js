@@ -10,6 +10,7 @@ const Stack = createNativeStackNavigator();
 //Screens
 import HomeScreen from "../screens/HomeScreen";
 import WelcomeScreen from "../screens/WelcomeScreen";
+import RecipeDetailScreen from "../screens/RecipeDetailScreen";
 
 export default function AppNavigation() {
   return (
@@ -20,6 +21,7 @@ export default function AppNavigation() {
       >
         <Stack.Screen name="Home" component={HomeScreen} />
         <Stack.Screen name="Welcome" component={WelcomeScreen} />
+        <Stack.Screen name="RecipeDetail" component={RecipeDetailScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
