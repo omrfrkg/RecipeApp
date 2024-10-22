@@ -9,6 +9,8 @@ import {
 
 //Reanimated
 import Animated, { useSharedValue, withSpring } from "react-native-reanimated";
+
+//Nav
 import { useNavigation } from "@react-navigation/native";
 
 export default function WelcomeScreen() {
